@@ -38,7 +38,7 @@ const Pinnedgroup = () => {
   return (
     <div className="pinnedgroup">
       <h4>
-        Pinned Group <i className="fa-solid fa-arrow-right"></i>
+        Pinned Groups <i className="fa-solid fa-arrow-right"></i>
       </h4>
       {subject.map((pinnedgroup) => (
         <PinnedItem pinnedgroup={pinnedgroup} key={pinnedgroup.name} />
