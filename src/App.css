@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #1e252b;
+  overflow-x: hidden;
+}
+.nav-div {
+  margin: 0 1rem;
+  background-color: #262d34;
+}
+.navbar {
+  background-color: #262d34;
+}
+.navbar-nav {
+  margin-left: 0.9rem;
+}
+.nav-link {
+  margin: 0 8px;
+}
+.navbar-brand {
+  background-color: #262d34;
+}
+.knowledge {
+  color: #ff571a;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: #262d34;
+}
+.nav-div button {
+  background-color: #262d34;
+}
+
+.navbar-collapse {
+  background-color: #262d34;
+}
+.collapse link {
+  background-color: #262d34;
+}
+.search-box {
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  height: 18%;
+  margin-top: 12px;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+}
+.search-box input {
+  /* flex: 1;  */
+  width: 440px;
+  padding: 5px 100px 4px 8px;
+  border: none;
+  background-color: #2c353d;
+  flex-direction: column;
+  outline: none;
+  color: #ffff;
+  /* align-items: flex-start; */
+  /* gap: 10px; */
+}
+.search-box span {
+  padding: 5px 4px 4px 0px;
+  cursor: pointer;
+  background-color: #2c353d;
+}
+.matlab {
+  color: #ffff;
+  margin-top: 9px;
+}
+.fa-caret-down {
+  color: #ffff;
+  margin-top: 9px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  
+} */

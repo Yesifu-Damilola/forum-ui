@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* /* Meetups starts */
+.company {
+  width: 308px;
+  height: 328px;
+  background-color: #262d34;
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  padding: 18px;
+}
+.company-profile {
+  display: flex;
+}
+.meet-up {
+  color: #f7f7f7;
+  font-size: 15px;
+  font-weight: 500;
+}
+.feb-7 {
+  background: #2c353d;
+  border-radius: 6px;
+  padding: 4px 6px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+.feb-7 p {
+  color: #f7f7f7;
+  font-size: 13px;
+}
+.feb-7 img {
+  padding-left: 5px;
+}
+.crunchbase span {
+  color: #f7f7f7;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.uihut-sylhet {
+  display: flex;
+}
+.uihut-sylhet span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #97989d;
+  padding-left: 5px;
+}
+.jobs span {
+  background-color: #2c353d;
+  color: #858ead;
+  font-size: 9px;
+  border-radius: 20px;
+  padding: 3px 8px;
+}
+.part-time {
+  margin: 0 7px;
+}
+/* Meetups ends */
+
+/* Podcasts starts */
+.company-business {
+  width: 308px;
+  height: 712px;
+  background-color: #262d34;
+  margin-top: 2rem;
+  border-radius: 16px;
+  padding: 18px 14px;
+}
+.company-business .company-profile {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.business h4 {
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.scalling {
+  color: #f7f7f7;
+  font-size: 12px; 
+  font-weight: 400;
+  padding-left: 7px;
+}
+.scalling .fa-solid {
+  padding-left: 1rem;
+}
+
+.scalling .bymichele {
+  font-size: 10px;
+  color: #97989d;
+}
+/* This is secon div */
+.mental-health {
+  color: #f7f7f7;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 7px;
+}
+.mental-health .fa-solid {
+  /* padding-left: 2rem; */
+}
+.mental-health .bymichele {
+  font-size: 10px;
+  color: #97989d;
+}
+/* Podcasts ends */

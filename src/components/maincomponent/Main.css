@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 785px;
+}
+.abatar-post {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  width: 1095px;
+  height: 86px;
+  border-radius: 16px;
+  background-color: #262d34;
+  margin: 1.5rem 1rem 2rem 1rem;
+}
+.abatar img {
+  flex-shrink: 0;
+}
+.share-mind input {
+  width: 690px;
+  height: 46px;
+  background-color: #2c353d;
+  padding: 12px 0px 12px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #ffff;
+  /* align-items: flex-start;
+  gap: 10px; */
+}
+.create-post {
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  
+}
+.create-btn {
+  background-color: #ff6934;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 6px;
+}
+/* This is where the data starts */
+
+.data1 {
+  display: flex;
+  width: 1095px;
+  height: 235px;
+  gap: 20px;
+  background-color: #262d34;
+  padding: 40px 20px;
+  border-radius: 16px;
+  margin: 1.5rem 1rem 2rem 1rem;
+}
+
+.pavel-profile {
+  padding-top: 30px;
+  display: flex;
+}
+
+.btc img {
+  width: 156px;
+  height: 156px;
+}
+
+.developer-love {
+  display: flex;
+  gap: 15rem;
+}
+.developer-love .course h4 {
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  color: #f7f7f7;
+  padding-right: 10px;
+}
+
+.coin-money {
+  font-family: "Source Sans Pro";
+}
+.coin {
+  color: #c5d0e6;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 20px;
+  background: #2c353d;
+}
+.btc-coin {
+  margin: 0 8px;
+}
+
+.pavel-profile {
+  gap: 10px;
+}
+.views {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.pavel-gvay {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  display: block;
+}
+.pavel-ago {
+  color: #f4f6f8;
+}
+.weekago {
+  font-family: "Source Sans Pro";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 4rem;
+}
+.comment-sections {
+  padding-top: 16px;
+  margin-left: 9rem;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.view-comment {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding-left: 40px;
+  color: #c5d0e6;
+}
+
+/* This is where the data ends */
